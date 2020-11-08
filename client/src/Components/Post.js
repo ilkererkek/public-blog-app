@@ -34,7 +34,7 @@ export const Post = (post) => {
            <p>
                {post.post.text}
            </p>
-           { post.post.imageurl && <img src={"http://localhost:5000/"+post.post.imageurl}></img>}
+           { post.post.imageurl && <img src={"https://public-blog-app.herokuapp.com/"+post.post.imageurl}></img>}
            
         </div>
         </NavLink>
